@@ -4,8 +4,7 @@ File: freecell.py
 Version 3
 """
 
-from cards import *
-from abstractPile import *
+from abstractPile import AbstractPile
 
 class FreeCell(AbstractPile):
 

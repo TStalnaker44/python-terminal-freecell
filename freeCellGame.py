@@ -4,10 +4,10 @@ File: freeCellGame.py
 Version 5
 """
 
-from cards import *
-from tableau import *
-from freeCell import *
-from homeCell import *
+from cards import Deck
+from tableau import Tableau
+from freeCell import FreeCell
+from homeCell import HomePile
 from move import Move
 
 class FreeCellGame():

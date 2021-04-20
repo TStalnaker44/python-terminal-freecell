@@ -4,8 +4,8 @@ File: homePile.py
 Version 3
 """
 
-from cards import *
-from abstractPile import *
+from cards import Card
+from abstractPile import AbstractPile
 
 class HomePile(AbstractPile):
 

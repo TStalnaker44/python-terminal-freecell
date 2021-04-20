@@ -4,8 +4,6 @@ File: abstractPile.py
 Version 3
 """
 
-from cards import *
-
 class AbstractPile():
 
     def __init__(self, maxSize):

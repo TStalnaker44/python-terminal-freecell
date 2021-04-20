@@ -4,9 +4,9 @@ File: move.py
 Version 1
 """
 
-from tableau import *
-from freeCell import *
-from homeCell import *
+from tableau import Tableau
+from freeCell import FreeCell
+from homeCell import HomePile
 
 class Move():
 

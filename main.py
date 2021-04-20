@@ -4,13 +4,14 @@ File: main.py
 Version 3
 """
 
-from freeCellGame import *
+from freeCellGame import FreeCellGame
 
 def main():
     game = FreeCellGame()
     print(game)
     while not game.isWinner() and game.areMoves():
-        userMove = input("What is your next move?\n<FromPile>:<Position>:<ToPile>\n>>")
+        userMove = input(
+            "What is your next move?\n<FromPile>:<Position>:<ToPile>\n>>")
         if userMove == "RESTART":
             game.restart()
             print(game)
@@ -39,7 +40,6 @@ def main():
     else:
         print("No More Moves!  You Lose!")
 
+
 if __name__ == "__main__":
     main()
-
-
